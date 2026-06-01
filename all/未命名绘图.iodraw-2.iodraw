@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="rrL3N6n_CTcrDx_FzQM2">
-    <mxGraphModel dx="261" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="448" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,10 +33,10 @@
           <mxGeometry x="179" y="130" width="222" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-25" value="输出：每个位置的上下文嵌入（&lt;font face=&quot;Times New Roman&quot;&gt;L×640&lt;/font&gt;）" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;html=1;" vertex="1" parent="1">
-          <mxGeometry x="179" y="310" width="222" height="30" as="geometry" />
+          <mxGeometry x="179" y="310" width="222" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-26" value="&lt;font face=&quot;宋体&quot;&gt;平均池化（&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Mean Pooling&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;）&lt;/font&gt;" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=Times New Roman;html=1;" vertex="1" parent="1">
-          <mxGeometry x="179" y="360" width="222" height="20" as="geometry" />
+          <mxGeometry x="179" y="359" width="222" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-27" value="序列级特征向量（&lt;font face=&quot;Times New Roman&quot;&gt;640&lt;/font&gt;维）" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;html=1;" vertex="1" parent="1">
           <mxGeometry x="183" y="400" width="214" height="20" as="geometry" />
