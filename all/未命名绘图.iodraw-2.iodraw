@@ -13,7 +13,7 @@
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-19" value="前馈网络层" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
           <mxGeometry x="67" y="69.7425725789362" width="110" height="20.275482093663914" as="geometry" />
         </mxCell>
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
           <mxGeometry x="35" y="110.76986874597266" width="174" height="20.275482093663914" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="CbIl8l8wVd_pZbxfdFrX-17" source="CbIl8l8wVd_pZbxfdFrX-18" target="CbIl8l8wVd_pZbxfdFrX-19">
@@ -32,7 +32,7 @@
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-24" value="Token 嵌入（每个残基映射为初始向量）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="179" y="110" width="222" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-25" value="输出：每个位置的上下文嵌入（L×640）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-25" value="输出：每个位置的上下文嵌入（L×640）" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="1">
           <mxGeometry x="179" y="360" width="222" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-26" value="平均池化（Mean Pooling）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
