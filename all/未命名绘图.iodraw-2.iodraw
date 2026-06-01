@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-17" value="Transformer &lt;font&gt;编码器 &lt;/font&gt;&lt;font&gt;×30&lt;/font&gt;&lt;font&gt;层&lt;/font&gt;" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;dashed=1;dashPattern=8 8;rounded=1;fontFamily=宋体;html=1;" vertex="1" parent="1">
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-17" value="Transformer &lt;font face=&quot;宋体&quot;&gt;编码器 &lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;×30&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;层&lt;/font&gt;" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;dashed=1;dashPattern=8 8;rounded=1;fontFamily=Times New Roman;html=1;" vertex="1" parent="1">
           <mxGeometry x="179" y="170" width="222" height="120" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-18" value="自注意力层" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
@@ -13,7 +13,7 @@
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-19" value="前馈网络层" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
           <mxGeometry x="60.959016393442624" y="56.30692943420216" width="100.08196721311475" height="15.206611570247935" as="geometry" />
         </mxCell>
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
           <mxGeometry x="42.76229508196722" y="91.08" width="135.5655737704918" height="15.21" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="CbIl8l8wVd_pZbxfdFrX-17" source="CbIl8l8wVd_pZbxfdFrX-18" target="CbIl8l8wVd_pZbxfdFrX-19">
@@ -33,10 +33,10 @@
           <mxGeometry x="179" y="110" width="222" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-25" value="输出：每个位置的上下文嵌入（L×640）" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="179" y="360" width="222" height="30" as="geometry" />
+          <mxGeometry x="179" y="310" width="222" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-26" value="平均池化（Mean Pooling）" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="179" y="410" width="222" height="20" as="geometry" />
+          <mxGeometry x="179" y="360" width="222" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-27" value="序列级特征向量（640维）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="183" y="450" width="214" height="30" as="geometry" />
