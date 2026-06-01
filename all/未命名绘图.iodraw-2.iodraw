@@ -1,0 +1,62 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="rrL3N6n_CTcrDx_FzQM2">
+    <mxGraphModel dx="784" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-1" value="Transformer 编码器 ×30层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="41" y="275" width="658" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-2" value="输入：氨基酸序列（如 ACDEFG...）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="37" y="20" width="220" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-3" value="Token 嵌入（每个残基映射为初始向量）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="139" width="253" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-4" value="自注意力层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="76" y="300" width="141" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-5" value="前馈网络层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="267" y="300" width="141" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-6" value="残差连接与层归一化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="458" y="300" width="206" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-7" value="输出：每个位置的上下文嵌入（L×640）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="435" y="426" width="253" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-8" value="平均池化（Mean Pooling）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="469" y="544" width="184" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-9" value="序列级特征向量（640维）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="436" y="663" width="249" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CbIl8l8wVd_pZbxfdFrX-2" target="CbIl8l8wVd_pZbxfdFrX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CbIl8l8wVd_pZbxfdFrX-3" target="CbIl8l8wVd_pZbxfdFrX-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CbIl8l8wVd_pZbxfdFrX-6" target="CbIl8l8wVd_pZbxfdFrX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="CbIl8l8wVd_pZbxfdFrX-7" target="CbIl8l8wVd_pZbxfdFrX-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CbIl8l8wVd_pZbxfdFrX-8" target="CbIl8l8wVd_pZbxfdFrX-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
