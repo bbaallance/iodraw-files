@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="rrL3N6n_CTcrDx_FzQM2">
-    <mxGraphModel dx="373" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="261" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="60.959016393442624" y="21.53891926255563" width="100.08196721311475" height="15.206611570247935" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-19" value="前馈网络层" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
-          <mxGeometry x="60.959016393442624" y="56.30692943420216" width="100.08196721311475" height="15.206611570247935" as="geometry" />
+          <mxGeometry x="50" y="56.31" width="111.04" height="15.21" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
           <mxGeometry x="42.76229508196722" y="91.08" width="135.5655737704918" height="15.21" as="geometry" />
@@ -27,10 +27,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-23" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;输入：氨基酸序列（如 &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;ACDEFG...&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;）&lt;/font&gt;&lt;/span&gt;" style="rounded=1;arcSize=20;strokeWidth=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="190" y="70" width="200" height="24" as="geometry" />
+          <mxGeometry x="190" y="80" width="200" height="24" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-24" value="Token &lt;font face=&quot;宋体&quot;&gt;嵌入（每个残基映射为初始向量）&lt;/font&gt;" style="rounded=1;arcSize=20;strokeWidth=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="179" y="120" width="222" height="20" as="geometry" />
+          <mxGeometry x="179" y="130" width="222" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-25" value="输出：每个位置的上下文嵌入（&lt;font face=&quot;Times New Roman&quot;&gt;L×640&lt;/font&gt;）" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;html=1;" vertex="1" parent="1">
           <mxGeometry x="179" y="310" width="222" height="30" as="geometry" />
