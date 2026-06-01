@@ -27,10 +27,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-23" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;输入：氨基酸序列（如 &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;ACDEFG...&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;）&lt;/font&gt;&lt;/span&gt;" style="rounded=1;arcSize=20;strokeWidth=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="190" y="60" width="200" height="24" as="geometry" />
+          <mxGeometry x="190" y="70" width="200" height="24" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-24" value="Token &lt;font face=&quot;宋体&quot;&gt;嵌入（每个残基映射为初始向量）&lt;/font&gt;" style="rounded=1;arcSize=20;strokeWidth=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="179" y="110" width="222" height="30" as="geometry" />
+          <mxGeometry x="179" y="120" width="222" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-25" value="输出：每个位置的上下文嵌入（&lt;font face=&quot;Times New Roman&quot;&gt;L×640&lt;/font&gt;）" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;html=1;" vertex="1" parent="1">
           <mxGeometry x="179" y="310" width="222" height="30" as="geometry" />
