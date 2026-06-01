@@ -11,7 +11,7 @@
           <mxGeometry x="60.959016393442624" y="21.53891926255563" width="100.08196721311475" height="15.206611570247935" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-19" value="前馈网络层" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
-          <mxGeometry x="50" y="56.31" width="111.04" height="15.21" as="geometry" />
+          <mxGeometry x="41" y="56.31" width="140" height="15.21" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
           <mxGeometry x="42.76229508196722" y="91.08" width="135.5655737704918" height="15.21" as="geometry" />
