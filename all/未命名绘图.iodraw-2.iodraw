@@ -14,7 +14,7 @@
           <mxGeometry x="67" y="52.30692943420216" width="110" height="15.206611570247935" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
-          <mxGeometry x="35" y="83.0774015594795" width="174" height="15.206611570247935" as="geometry" />
+          <mxGeometry x="35" y="91.0774015594795" width="174" height="15.206611570247935" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="CbIl8l8wVd_pZbxfdFrX-17" source="CbIl8l8wVd_pZbxfdFrX-18" target="CbIl8l8wVd_pZbxfdFrX-19">
           <mxGeometry relative="1" as="geometry">
