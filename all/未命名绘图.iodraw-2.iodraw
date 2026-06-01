@@ -33,10 +33,10 @@
           <mxGeometry x="179" y="110" width="222" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-25" value="输出：每个位置的上下文嵌入（L×640）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="179" y="360" width="222" height="64" as="geometry" />
+          <mxGeometry x="179" y="360" width="222" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-26" value="平均池化（Mean Pooling）" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="179" y="450" width="222" height="46" as="geometry" />
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-26" value="平均池化（Mean Pooling）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="450" width="222" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-27" value="序列级特征向量（640维）" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
           <mxGeometry x="183" y="520" width="214" height="46" as="geometry" />
