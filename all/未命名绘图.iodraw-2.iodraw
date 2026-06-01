@@ -7,10 +7,10 @@
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-17" value="Transformer 编码器 ×30层" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;dashed=1;dashPattern=8 8;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="168" y="170" width="244" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-18" value="自注意力层" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-18" value="自注意力层" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
           <mxGeometry x="67" y="28.718559016740837" width="110" height="20.275482093663914" as="geometry" />
         </mxCell>
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-19" value="前馈网络层" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-19" value="前馈网络层" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
           <mxGeometry x="67" y="69.7425725789362" width="110" height="20.275482093663914" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
@@ -36,10 +36,10 @@
           <mxGeometry x="179" y="360" width="222" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-26" value="平均池化（Mean Pooling）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="179" y="450" width="222" height="20" as="geometry" />
+          <mxGeometry x="179" y="410" width="222" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-27" value="序列级特征向量（640维）" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="183" y="520" width="214" height="46" as="geometry" />
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-27" value="序列级特征向量（640维）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="183" y="450" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CbIl8l8wVd_pZbxfdFrX-23" target="CbIl8l8wVd_pZbxfdFrX-24">
           <mxGeometry relative="1" as="geometry">
