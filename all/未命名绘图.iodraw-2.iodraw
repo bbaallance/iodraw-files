@@ -5,16 +5,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-17" value="Transformer 编码器 ×30层" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;dashed=1;dashPattern=8 8;rounded=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="168" y="170" width="244" height="130" as="geometry" />
+          <mxGeometry x="168" y="170" width="244" height="120" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-18" value="自注意力层" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
-          <mxGeometry x="67" y="23.33382920110193" width="110" height="16.47382920110193" as="geometry" />
+          <mxGeometry x="67" y="21.53891926255563" width="110" height="15.206611570247935" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-19" value="前馈网络层" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
-          <mxGeometry x="67" y="56.66584022038567" width="110" height="16.47382920110193" as="geometry" />
+          <mxGeometry x="67" y="52.30692943420216" width="110" height="15.206611570247935" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-20" value="残差连接与层归一化" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="CbIl8l8wVd_pZbxfdFrX-17">
-          <mxGeometry x="35" y="90.00051835610279" width="174" height="16.47382920110193" as="geometry" />
+          <mxGeometry x="35" y="83.0774015594795" width="174" height="15.206611570247935" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="CbIl8l8wVd_pZbxfdFrX-17" source="CbIl8l8wVd_pZbxfdFrX-18" target="CbIl8l8wVd_pZbxfdFrX-19">
           <mxGeometry relative="1" as="geometry">
