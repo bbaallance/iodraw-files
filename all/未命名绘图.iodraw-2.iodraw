@@ -35,11 +35,11 @@
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-25" value="输出：每个位置的上下文嵌入（&lt;font face=&quot;Times New Roman&quot;&gt;L×640&lt;/font&gt;）" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=宋体;html=1;" vertex="1" parent="1">
           <mxGeometry x="179" y="310" width="222" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CbIl8l8wVd_pZbxfdFrX-26" value="&lt;font face=&quot;宋体&quot;&gt;平均池化（Mean Pooling）&lt;/font&gt;" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=Times New Roman;html=1;" vertex="1" parent="1">
+        <mxCell id="CbIl8l8wVd_pZbxfdFrX-26" value="&lt;font face=&quot;宋体&quot;&gt;平均池化（&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Mean Pooling&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;）&lt;/font&gt;" style="rounded=1;arcSize=20;strokeWidth=1;fontFamily=Times New Roman;html=1;" vertex="1" parent="1">
           <mxGeometry x="179" y="360" width="222" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-27" value="序列级特征向量（640维）" style="rounded=1;arcSize=20;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="183" y="450" width="214" height="30" as="geometry" />
+          <mxGeometry x="183" y="400" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CbIl8l8wVd_pZbxfdFrX-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="CbIl8l8wVd_pZbxfdFrX-23" target="CbIl8l8wVd_pZbxfdFrX-24">
           <mxGeometry relative="1" as="geometry">
